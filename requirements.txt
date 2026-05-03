@@ -1,0 +1,7 @@
+tkinter
+PyPDF2
+python-docx
+spacy
+nltk
+textblob
+pillow
