@@ -6,11 +6,11 @@ import os
 class CVAnalyzerGUI:
     def __init__(self, root):
         self.root = root
-        self.root.title("CV Analyzer - Student Resume Analysis Tool")
+        self.root.title("CV Analyzer - ML-Powered Resume Analysis")  # Updated title
         self.root.geometry("900x700")
         self.root.configure(bg='#f0f0f0')
         
-        self.analyzer = CVAnalyzer()
+        self.analyzer = CVAnalyzer(use_ml=True)  # Enable ML
         self.file_path = None
         
         self.create_widgets()
